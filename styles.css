@@ -1,0 +1,64 @@
+/* General page style */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #333;
+}
+
+/* Container for everything */
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  max-width: 350px;
+  width: 90%;
+}
+
+/* Heading */
+h1 {
+  color: #ff5c8a;
+  margin-bottom: 20px;
+}
+
+/* Message text */
+.message {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Button style */
+button {
+  background: #ff5c8a;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e14d78;
+}
+
+/* Note box where the message appears */
+#note-box {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+  background: #ffe6ec;
+  padding: 15px;
+  border-radius: 15px;
+  display: none; /* Hidden until button is clicked */
+}
